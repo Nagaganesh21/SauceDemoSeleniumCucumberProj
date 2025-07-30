@@ -9,7 +9,7 @@ Feature: Login page automation of SauceDemo application
     Then I should see the Home page
     And Close the browser
     
-  Scenario: check login page with valid credentials
+  Scenario: check login page with not valid credentials
     When I enter not valid username and password
     And I click on login button
     Then I should see the Home page
