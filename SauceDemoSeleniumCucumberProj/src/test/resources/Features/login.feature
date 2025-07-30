@@ -10,7 +10,7 @@ Feature: Login page automation of SauceDemo application
     And Close the browser
     
   Scenario: check login page with valid credentials
-    When I enter valid username and password
+    When I enter not valid username and password
     And I click on login button
     Then I should see the Home page
     And Close the browser
